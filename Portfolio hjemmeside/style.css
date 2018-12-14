@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MIN KODE*/
+
+* {
+text-decoration: none;
+}
+
+body {
+	background-color: #f3f3f3;
+}
+
+header {
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+}
+header .header-brand {
+	font-family: Crimson;
+	font-size: 24px;
+	color: #111;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+header nav ul {
+display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+header nav ul li {
+display: inline-block;
+	list-style: none;
+	padding: 0 16px;
+}
+header nav ul li a {
+	font-family: Crimson;
+	font-size: 20px;
+	color: #111;
+	text-transform:inherit;
+}
+
+@media only screen and (min-width: 1000px) {
+	header .header-brand {
+	margin: 31px 0;
+	text-align: left;
+	padding: 0 20px 0 40px;
+	line-height: 80px;
+	}
+header nav ul {
+	float: right;
+	list-style-type: none;
+	line-height: 100px;
+	margin-top: -100px;
+}
+
+
+	}
+/*INDEX*/
+
+.index-banner {
+
+}
+
+.index-links div {
+margin: 16px 16px 0;
+width: calc(100% - 32px);
+height: 100px;
+background-color: #DADADA
+}
+.index-links div {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "serif";
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 100px;
+	color: #000000;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+header nav ul li a {
+	font-size: 20px;
+}
+
+	/*footer*/
+
+footer {
+	width: calc(100% - 80px);
+	padding: 40px 40px;
+	margin-top: 20px;
+	background-color: #494949;
+	overflow: hidden;
+}
+footer ul {
+width: 100%;
+float: left;
+padding-left: 20px;
+
+}
+footer ul li {
+display: block;
+	list-style: none;
+
+}
+.footer-links-bottom {
+font-family: Crimson;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 40px;
+	float: left;
+
+}
+
+.footer-socialmedia {
+	width: 50px;
+	float: right;
+}
+.footer-socialmedia img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.twitter {
+	width: 50px;
+	float: right;
+}
+.twitter img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.instagram {
+	width: 50px;
+	float: right;
+}
+.instagram img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+}
